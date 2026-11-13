@@ -4,174 +4,216 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>مدرن اسمارت کی | ساخت و کددهی ریموت و کلید خودرو</title>
+<title>مدرن اسمارت کی | مرکز تخصصی ساخت کلید و ریموت خودرو</title>
 
-<meta name="description" content="مدرن اسمارت کی، تخصص در ساخت کلید، ساخت و کددهی ریموت، پروگرام اسمارت کی و سیستم کیلس خودروهای داخلی، خارجی و چینی در تهران و کرج.">
+<meta name="description" content="مدرن اسمارت کی، مرکز تخصصی ساخت کلید خودرو، ساخت و کددهی ریموت، پروگرام اسمارت کی و کیلس خودروهای داخلی، وارداتی و چینی در تهران و کرج.">
 
-<meta name="keywords" content="ساخت کلید خودرو، ساخت ریموت خودرو، کددهی ریموت، پروگرام ریموت، اسمارت کی، کلید خودروهای وارداتی، ریموت بنز، ریموت بی ام و، ریموت تویوتا">
+<meta name="keywords" content="ساخت کلید خودرو، ساخت ریموت خودرو، کددهی ریموت، پروگرام ریموت، کلیدسازی خودرو، ریموت بنز، ریموت BMW، ریموت تویوتا، اسمارت کی">
 
 <meta name="theme-color" content="#080808">
 
 <style>
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html {
+scroll-behavior:smooth;
 }
 
 body {
-    background: #090909;
-    color: #fff;
-    font-family: Tahoma, Arial, sans-serif;
-    line-height: 2;
+background:#080808;
+color:#fff;
+font-family:Tahoma,Arial,sans-serif;
+line-height:2;
 }
 
 header {
-    padding: 22px 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #292319;
+background:#101010;
+padding:18px 7%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #b8954b;
 }
 
 .logo {
-    color: #d6b36a;
-    font-size: 25px;
-    font-weight: bold;
+color:#d8b66c;
+font-size:23px;
+font-weight:bold;
+letter-spacing:1px;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 12px;
-    font-size: 14px;
+color:#eee;
+text-decoration:none;
+margin:0 10px;
+font-size:13px;
 }
 
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: radial-gradient(circle, #292015, #090909 70%);
+min-height:470px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:65px 20px;
+background:radial-gradient(circle at center,#302416,#080808 75%);
 }
 
 .hero h1 {
-    font-size: 38px;
-    color: #e2bd72;
-    margin-bottom: 20px;
+color:#e3c47c;
+font-size:38px;
+margin-bottom:20px;
 }
 
 .hero p {
-    max-width: 750px;
-    margin: auto;
-    color: #ddd;
-    font-size: 17px;
+max-width:750px;
+margin:auto;
+color:#ddd;
+font-size:17px;
 }
 
 .btn {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 32px;
-    background: #d6b36a;
-    color: #111;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+display:inline-block;
+background:#d8b66c;
+color:#111;
+padding:11px 27px;
+margin:10px 5px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover {
+background:#fff;
 }
 
 section {
-    padding: 65px 8%;
+padding:65px 8%;
 }
 
 .title {
-    text-align: center;
-    color: #d6b36a;
-    font-size: 28px;
-    margin-bottom: 35px;
+text-align:center;
+color:#dfbd75;
+font-size:28px;
+margin-bottom:35px;
 }
 
 .services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
 }
 
 .card {
-    background: #151515;
-    border: 1px solid #30291d;
-    padding: 28px 20px;
-    border-radius: 10px;
-    text-align: center;
+background:#151515;
+border:1px solid #393020;
+border-radius:10px;
+padding:25px 18px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover {
+transform:translateY(-5px);
+border-color:#d8b66c;
 }
 
 .card h3 {
-    color: #d6b36a;
-    margin-bottom: 12px;
+color:#dfbd75;
+margin-bottom:12px;
 }
 
 .card p {
-    color: #ccc;
-    font-size: 14px;
+color:#ccc;
+font-size:14px;
 }
 
 .about {
-    background: #111;
-    text-align: center;
+background:#111;
+text-align:center;
 }
 
 .about p {
-    max-width: 850px;
-    margin: auto;
-    color: #ddd;
+max-width:850px;
+margin:auto;
+color:#ddd;
 }
 
 .cars {
-    text-align: center;
+text-align:center;
 }
 
 .cars p {
-    color: #ccc;
-    max-width: 850px;
-    margin: auto;
+max-width:900px;
+margin:auto;
+color:#ccc;
 }
 
 .contact {
-    text-align: center;
-    background: #15120d;
+background:#17130d;
+text-align:center;
 }
 
-.contact p {
-    color: #ddd;
-    margin: 10px;
+.contact .card {
+max-width:350px;
+margin:auto;
+}
+
+.contact .services {
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+max-width:800px;
+margin:auto;
+}
+
+.social {
+margin-top:30px;
 }
 
 footer {
-    text-align: center;
-    padding: 25px;
-    color: #aaa;
-    background: #050505;
-    font-size: 13px;
+background:#050505;
+border-top:1px solid #302719;
+padding:25px;
+text-align:center;
+color:#aaa;
+font-size:13px;
 }
 
 @media(max-width:600px) {
-    header {
-        flex-direction: column;
-    }
 
-    nav {
-        margin-top: 12px;
-    }
+header {
+flex-direction:column;
+}
 
-    nav a {
-        margin: 0 6px;
-        font-size: 12px;
-    }
+nav {
+margin-top:10px;
+}
 
-    .hero h1 {
-        font-size: 27px;
-    }
+nav a {
+margin:0 5px;
+font-size:11px;
+}
 
-    .hero {
-        padding: 70px 18px;
-    }
+.hero h1 {
+font-size:27px;
+}
+
+.hero p {
+font-size:14px;
+}
+
+section {
+padding:45px 6%;
+}
+
+.title {
+font-size:23px;
+}
+
 }
 </style>
 </head>
@@ -179,104 +221,166 @@ footer {
 <body>
 
 <header>
-    <div class="logo">MODERN SMART KEY</div>
-    <nav>
-        <a href="#home">خانه</a>
-        <a href="#services">خدمات</a>
-        <a href="#about">درباره ما</a>
-        <a href="#contact">تماس</a>
-    </nav>
+
+<div class="logo">MODERN SMART KEY</div>
+
+<nav>
+<a href="#home">خانه</a>
+<a href="#services">خدمات</a>
+<a href="#about">درباره ما</a>
+<a href="#contact">تماس</a>
+</nav>
+
 </header>
 
+<main>
+
 <div class="hero" id="home">
-    <h1>تخصص در دنیای کلیدهای هوشمند خودرو</h1>
 
-    <p>
-    مدرن اسمارت کی؛ ارائه خدمات تخصصی ساخت کلید،
-    ساخت و کددهی ریموت، پروگرام اسمارت کی و سیستم‌های
-    کیلس خودروهای داخلی، وارداتی و چینی.
-    </p>
+<div>
 
-    <a href="#contact" class="btn">دریافت مشاوره</a>
+<h1>تخصص، فناوری و امنیت در دنیای کلید خودرو</h1>
+
+<p>
+مدرن اسمارت کی؛ مرکز تخصصی ساخت کلید، ساخت و کددهی ریموت، پروگرام اسمارت کی و سیستم‌های کیلس خودروهای داخلی، وارداتی و چینی.
+</p>
+
+<a href="#contact" class="btn">ارتباط با متخصصان</a>
+
+<a href="#services" class="btn">مشاهده خدمات</a>
+
+</div>
+
 </div>
 
 <section id="services">
-    <h2 class="title">خدمات تخصصی ما</h2>
 
-    <div class="services">
+<h2 class="title">خدمات تخصصی مدرن اسمارت کی</h2>
 
-        <div class="card">
-            <h3>ساخت کلید خودرو</h3>
-            <p>ساخت کلید یدک و جایگزین برای انواع خودروهای داخلی و خارجی.</p>
-        </div>
+<div class="services">
 
-        <div class="card">
-            <h3>کددهی ریموت خودرو</h3>
-            <p>تعریف و پروگرام ریموت انواع خودروهای وارداتی، چینی و داخلی.</p>
-        </div>
+<div class="card">
+<h3>ساخت کلید خودرو</h3>
+<p>ساخت کلید یدک و جایگزین برای انواع خودروهای داخلی و خارجی.</p>
+</div>
 
-        <div class="card">
-            <h3>سیستم اسمارت کی</h3>
-            <p>تخصص در ساخت و تعریف کلیدهای هوشمند و سیستم‌های کیلس.</p>
-        </div>
+<div class="card">
+<h3>ساخت و کددهی ریموت</h3>
+<p>تعریف و پروگرام انواع ریموت خودروهای وارداتی، چینی و داخلی.</p>
+</div>
 
-        <div class="card">
-            <h3>ساخت سوئیچ یدک</h3>
-            <p>ساخت سوئیچ دوم و خدمات تخصصی در زمینه کلیدهای الکترونیکی خودرو.</p>
-        </div>
+<div class="card">
+<h3>اسمارت کی و کیلس</h3>
+<p>ساخت و تعریف کلیدهای هوشمند و سیستم‌های ورود و استارت بدون کلید.</p>
+</div>
 
-        <div class="card">
-            <h3>خدمات کلید گمشده</h3>
-            <p>بررسی و ارائه راهکار تخصصی برای خودروهای فاقد کلید.</p>
-        </div>
+<div class="card">
+<h3>خودروهای بدون کلید</h3>
+<p>ارائه خدمات تخصصی در شرایط مفقودی تمامی کلیدهای خودرو.</p>
+</div>
 
-        <div class="card">
-            <h3>ریموت خودروهای چینی</h3>
-            <p>ساخت و کددهی ریموت خودروهای جدید چینی و مونتاژی.</p>
-        </div>
+<div class="card">
+<h3>ساخت ریموت یدک</h3>
+<p>ساخت ریموت دوم برای جلوگیری از مشکلات و هزینه‌های مفقودی کلید.</p>
+</div>
 
-    </div>
+<div class="card">
+<h3>خودروهای جدید چینی</h3>
+<p>ساخت و کددهی ریموت خودروهای جدید و مونتاژی بازار ایران.</p>
+</div>
+
+</div>
+
 </section>
 
 <section class="about" id="about">
-    <h2 class="title">درباره مدرن اسمارت کی</h2>
 
-    <p>
-    مدرن اسمارت کی با تمرکز بر فناوری‌های نوین امنیت خودرو،
-    در زمینه ساخت کلید، کددهی ریموت و سیستم‌های هوشمند خودرو
-    فعالیت می‌کند.
-    هدف ما ارائه خدمات تخصصی، دقیق و حرفه‌ای برای خودروهای
-    داخلی، وارداتی و چینی است.
-    </p>
+<h2 class="title">درباره مدرن اسمارت کی</h2>
+
+<p>
+مدرن اسمارت کی با تمرکز بر تخصص و فناوری‌های نوین امنیت خودرو، در زمینه ساخت کلید، کددهی ریموت، پروگرام اسمارت کی و سیستم‌های کیلس فعالیت می‌کند.
+
+تخصص ما ارائه خدمات حرفه‌ای برای خودروهای داخلی، وارداتی و چینی با استفاده از تجهیزات تخصصی و دانش فنی روز است.
+
+هدف ما ارائه خدمات دقیق، مطمئن و حرفه‌ای به صاحبان خودرو است.
+</p>
+
 </section>
 
 <section class="cars">
-    <h2 class="title">تخصص در انواع خودروها</h2>
 
-    <p>
-    مرسدس بنز، BMW، تویوتا، لکسوس، هیوندای، کیا،
-    میتسوبیشی، نیسان، مزدا، فولکس واگن، پورشه،
-    چری، فونیکس، ام وی ام، جک، KMC، لاماری،
-    لوکانو، اکستریم، توکا، BYD و سایر خودروها.
-    </p>
+<h2 class="title">تخصص در انواع برندهای خودرویی</h2>
+
+<p>
+Mercedes-Benz | BMW | Toyota | Lexus | Porsche | Hyundai | Kia | Nissan | Mazda | Mitsubishi | Volkswagen | Peugeot | Renault | Chery | Fownix | MVM | JAC | KMC | BYD | Lamari | Lucano | Xtrim | Tooca
+</p>
+
 </section>
 
-<section class="contact" id="contact">
-    <h2 class="title">ارتباط با مدرن اسمارت کی</h2>
+<section id="contact" class="contact">
 
-    <p>ارائه خدمات در تهران، کرج و حومه</p>
+<h2 class="title">ارتباط با مدرن اسمارت کی</h2>
 
-    <p>برای مشاوره و مشاهده نمونه کارها با ما در ارتباط باشید.</p>
+<p>برای دریافت مشاوره و خدمات تخصصی با کارشناسان ما تماس بگیرید.</p>
 
-    <a class="btn" href="https://www.instagram.com/remotemr.smartkeyless/" target="_blank">
-    ارتباط از طریق اینستاگرام
-    </a>
+<br>
+
+<div class="services">
+
+<div class="card">
+
+<h3>شمس</h3>
+
+<p>09120174169</p>
+
+<a class="btn" href="tel:09120174169">تماس مستقیم</a>
+
+<a class="btn" href="https://wa.me/989120174169">واتساپ</a>
+
+</div>
+
+<div class="card">
+
+<h3>هاشمی</h3>
+
+<p>09120174168</p>
+
+<a class="btn" href="tel:09120174168">تماس مستقیم</a>
+
+<a class="btn" href="https://wa.me/989120174168">واتساپ</a>
+
+</div>
+
+</div>
+
+<div class="social">
+
+<a class="btn" href="https://www.instagram.com/remotemr.smartkeyless/" target="_blank">
+اینستاگرام مدرن اسمارت کی
+</a>
+
+</div>
+
+<p style="margin-top:25px;color:#dfbd75;">
+ارائه خدمات در تهران، کرج و حومه
+</p>
+
 </section>
+
+</main>
 
 <footer>
-    © تمامی حقوق متعلق به Modern Smart Key است.
-    <br>
-    تخصص در ساخت و کددهی کلید و ریموت خودرو
+
+MODERN SMART KEY
+
+<br>
+
+مرکز تخصصی ساخت کلید و کددهی ریموت خودرو
+
+<br>
+
+© تمامی حقوق محفوظ است.
+
 </footer>
 
 </body>
